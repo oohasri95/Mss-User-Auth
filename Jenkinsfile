@@ -56,6 +56,6 @@ node{
 	 sh "kubectl create namespace javaproject"
 	 sh "kubectl get ns" 
          sh "kubectl apply -f sampledeploy.yml -n=javaproject"	
+	}
    }
-}
 }
